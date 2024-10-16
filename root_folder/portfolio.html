@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_page.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="colours.css">
+    <title>Ana Morosanu - Portfolio</title>
+</head>
+
+<body>
+    <div class="projects">
+
+        <!-- NAVIGATION BAR -->
+        <header>
+            <nav>
+                <div class="navigation-pages">
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </div>
+            </nav>
+        </header>
+
+        <!-- PORTFOLIO HEADER -->
+        <main>
+            <!-- PROJECT SECTION 1 -->
+            <section class="project">
+                <h2>OriginALevel</h2>
+                <div class="project-content">
+                <div class="project-image">
+                    <img src="img\originALevel_top_img.png" alt="Top Part">
+                    <img src="img\originALevel_bottom.png" alt="Bottom Part">
+                </div>
+                <div class="project-description">
+                    <p>The project addresses the challenges faced by A level computer science students who may struggle to seek personalized help from busy teachers, leading to potential knowledge gaps and diminished confidence. 
+                        Recognizing the reluctance of some students to ask questions in class, the project proposes a web application where students can anonymously or openly ask computer science-related questions. While the initial 
+                        idea included an anonymous function, it was omitted to prevent misuse. The platform allows both students and teachers to contribute answers, fostering a collaborative learning environment. The questions are 
+                        categorized by an algorithm for easy retrieval, and a rating system facilitates the identification of well-answered queries. To ensure reliability, teacher responses are distinguished with green or pink ticks, 
+                        requiring a verification code for identity. The login system and student authentication enhance security within the school community. The primary stakeholders are students seeking additional support, aiming to 
+                        alleviate stress and anxiety by providing a platform for continuous learning and interaction. The project envisions creating a sense of community among computer science students, fostering engagement and 
+                        potentially improving overall subject performance.</p>
+                        <blockquote>
+                            <em>
+                                "Me and Mr. Noble (head of the Computer Science Department), are proud to say that this is the most sophisticated work we have seen from an A - level student in terms of web development." - Mr. Booth, Headteacher
+                            </em>
+                        </blockquote>
+                </div>
+                </div>
+            </section>
+
+            <!-- PROJECT SECTION 2 -->
+            <section class="project">
+                <h2>Add Blocker</h2>
+                <div class="project-content">
+                <div class="project-image">
+                    <img src="img\pi_hole_img.png" alt="Pi-hole">
+                    <img src="img\ip_address_img.png" alt="ip address">
+                </div>
+                <div class="project-description">
+                    <p>In my second project, I configured a Raspberry Pi to run Pi-hole, an ad-blocking and DNS filtering software. The setup involved installing the operating system on an SD card and resolving SSH key issues by 
+                        editing the known_hosts file. I configured Pi-hole to use Quad9 for DNS filtering, actively blocking malicious content. To enhance interaction, I utilized the admin web interface and enabled logging to monitor 
+                        DNS activity on the network. I incorporated community-maintained blocklists, such as "The Unofficial Blocklist for Pi-hole," to block YouTube ads. Additionally, I turned Pi-hole into a DNS server, redirecting 
+                        all internet traffic through it. Addressing potential questions, I considered DNS security, discussed real-world DNS-based attacks like DNS amplification attacks, and highlighted the protective role of Quad9 as 
+                        a global DNS resolver against malware and phishing.</p>
+                </div>
+                </div>
+            </section>
+
+            <!-- PROJECT SECTION 3 -->
+            <section class="project">
+                <h2>Front-End FAQ Page</h2>
+                <div class="project-content">
+                <div class="project-image">
+                    <img src="img\faq_page.png" alt="FAQ page">
+                </div>
+                <div class="project-description">
+                    <p>Designed and implemented the FAQ page for the new website using CSS, adhering to the provided design specifications. Overcame the challenge of identifying and working with Shopify-specific IDs. Collaborated 
+                        effectively within a professional team environment, showcasing adaptability and learning agility. Acknowledged by the development team manager with inclusion of my name in the FAQ page source code, as well 
+                        as giving me a written reference.
+                    </p>
+                </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Original </p>
+                <p>All rights reserved</p>
+                <div class="footer-icons">
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><img src="img/linkedin_icon.png"
+                            alt="LinkedIn"></a>
+                    <a href="https://github.com/yourusername" target="_blank"><img src="img/github_icon.png"
+                            alt="GitHub"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

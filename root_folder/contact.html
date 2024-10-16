@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_page.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="colours.css">
+    <title>Ana Morosanu - Portfolio</title>
+</head>
+
+<body>
+    <div class="page-container">
+
+        <!-- NAVIGATION BAR -->
+        <header>
+            <nav>
+                <div class="navigation-pages">
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- CONTACT FORM -->
+        <main>
+            <section class="contact-form">
+                <h2>Contact Me</h2>
+                <div class="my-details">
+                    <li><img src="img\phone_icon.png" alt="Phone Icon">Phone: +44 0774 656432</li>
+                    <li><img src="img\email_icon.png" alt="Email Icon">Email: alexandra.morosanu13@gmail.com</li>
+                    <li><img src="img\sun_icon.png" alt="SUN Icon">Student Number: 230167944</li>
+                </div>
+
+                <div class="contact-form">
+                <form onsubmit="return validateForm()">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="confirmEmail">Confirm Email:</label>
+                    <input type="email" id="confirmEmail" name="confirmEmail" required>
+
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+
+                    <label for="contactPreference">Contact Preference:</label>
+                    <select id="contactPreference" name="contactPreference">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+
+                    <label for="projectDate">Project Date:</label>
+                    <input type="date" id="projectDate" name="projectDate" min="2024-02-20" required>
+
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+
+                    <!-- Mailto link for Gmail -->
+                <a href="mailto:alexandra.morosanu13@gmail.com"
+                    target="_blank"
+                    class="mailto-link">Contact me via Email</a>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Original </p>
+                <p>All rights reserved</p>
+                <div class="footer-icons">
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><img src="img/linkedin_icon.png"
+                            alt="LinkedIn"></a>
+                    <a href="https://github.com/yourusername" target="_blank"><img src="img/github_icon.png"
+                            alt="GitHub"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
